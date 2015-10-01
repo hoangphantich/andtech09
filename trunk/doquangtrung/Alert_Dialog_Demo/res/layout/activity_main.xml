@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#99FFFF" >
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/background"
+        android:hint="@string/show1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background"
+        android:hint="@string/show2"
+        android:password="true"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp" >
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#FFCC66"
+            android:text="Login"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="#0099FF" />
+
+        <Button
+            android:id="@+id/btnForgot"
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:background="#FF3300"
+            android:text="Forgot password"
+            android:textSize="30dp"
+            android:textColor="#009900" />
+    </LinearLayout>
+
+</LinearLayout>

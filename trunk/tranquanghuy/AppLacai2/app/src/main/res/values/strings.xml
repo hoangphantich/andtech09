@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppLacai2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="news">
+        <item>Hoa hau chuyen nghe ban dua</item>
+        <item>Hoa hau chuyen nghe ban dua2</item>
+        <item>Hoa hau chuyen nghe ban dua3</item>
+        <item>Hoa hau chuyen nghe ban dua4</item>
+        <item>Hoa hau chuyen nghe ban dua5</item>
+    </string-array>
+    <string name="title_activity_news_detail">NewsDetail</string>
+</resources>

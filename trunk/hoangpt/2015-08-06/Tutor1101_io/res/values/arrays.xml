@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_menu">
+        <item>ExternalFile</item>
+        <item>InternalFile</item>
+        <item>ResourceFile</item>
+        <item>PreferenceFile</item>
+        <item>PreferenceScreen</item>
+        <item>PreferenceScreenNoCode</item>
+    </string-array>
+</resources>

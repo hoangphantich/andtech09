@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mock_title" 
+        android:textSize="30sp" 
+        android:background="#EE932C"
+        android:textColor="#2D81FA"/>
+    
+    <TextView
+        android:id="@+id/edtContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="mock_content" 
+        android:background="#44AEDD"
+        android:textColor="#131313"/>    
+
+</LinearLayout>

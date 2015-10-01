@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tipter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="drinks_array">
+        <item >Beer</item>
+        <item >Coffe</item>
+        <item >Wind</item>
+        <item >Coca</item>
+        <item >Pesi</item>
+    </string-array>
+
+</resources>

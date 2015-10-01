@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mua hoa của em đi anh" />
+
+    <LinearLayout
+        android:id="@+id/hehe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/flowerEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/buyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mua" 
+            android:background="#EE922A"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtInvoiceTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:textColor="#C52C54"
+        android:background="#E86928"
+        android:textSize="30px"
+        android:text="Hoá đơn" />
+
+    <TextView
+        android:id="@+id/orderTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3797E0" 
+        android:text="Hoa bươm bướm (miễn phí)"/>
+
+</LinearLayout>

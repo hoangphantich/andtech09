@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor0901_thread</string>
+    <string name="title_activity_threading_non_reponsive">ThreadingNonReponsiveActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_threading_reponsive">ThreadingReponsiveActivity</string>
+
+</resources>

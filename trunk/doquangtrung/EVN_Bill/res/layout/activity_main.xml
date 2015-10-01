@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="44dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="21dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/edQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtQuantity"
+        android:layout_alignLeft="@+id/edName"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="43dp"
+        android:text="Quantity" />
+
+    <Button
+        android:id="@+id/btnCaculate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/edQuantity"
+        android:layout_below="@+id/edQuantity"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Caculate" />
+
+    <TextView
+        android:id="@+id/txtVAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTotal"
+        android:layout_below="@+id/txtTotal"
+        android:layout_marginTop="25dp"
+        android:text="VAT" />
+
+    <TextView
+        android:id="@+id/txtTotalfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTotal"
+        android:layout_marginLeft="39dp"
+        android:layout_toRightOf="@+id/txtTotal"
+        android:text="@null" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCaculate"
+        android:layout_marginTop="106dp"
+        android:layout_toRightOf="@+id/txtQuantity"
+        android:text="Totalfee" />
+
+    <TextView
+        android:id="@+id/txtvat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtVAT"
+        android:layout_alignBottom="@+id/txtVAT"
+        android:layout_alignLeft="@+id/txtTotalfee"
+        android:text="@null" />
+
+    <TextView
+        android:id="@+id/txtTotalI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtVAT"
+        android:layout_below="@+id/txtVAT"
+        android:layout_marginTop="33dp"
+        android:text="Total(include VAT)" />
+
+    <TextView
+        android:id="@+id/txtTo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTotalI"
+        android:layout_alignRight="@+id/btnCaculate"
+        android:text="@null" />
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnCaculate"
+        android:text="Print" />
+  
+</RelativeLayout>

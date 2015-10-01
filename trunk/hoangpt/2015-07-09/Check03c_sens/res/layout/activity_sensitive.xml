@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hehe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btnSens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/angry" 
+        android:onClick="changeSensitive"/>
+
+    <TextView
+        android:id="@+id/txtSens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I&apos;m angry. Don&apos;t touch me."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

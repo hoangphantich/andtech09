@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor1001_imgdownloader</string>
+    <string name="title_activity_threading_non_reponsive">SyncNonReponsiveActivity</string>
+    <string name="title_activity_threading_reponsive">AsyncReponsiveActivity</string>
+    <string name="title_activity_async_reponsive_four_image">AsyncReponsiveFourImageActivity</string>
+
+</resources>

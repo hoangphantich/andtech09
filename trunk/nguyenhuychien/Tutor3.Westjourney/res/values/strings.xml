@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor3.Westjourney</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_second">Infor</string>
+    <string name="info_text">Input your info</string>
+    <string name="title_activity_third">Bargage</string>
+    <string name="name_txt">Name:  </string>
+    <string name="age_txt">Age: </string>
+    <string name="clothes_prompt">Choose a clothes</string>
+
+    <string-array name="clothes">
+        <item>Ao khang hoa</item>
+        <item>Ao chong nuoc</item>
+        <item>Ao da tiec</item>
+        <item>Ao mua dong</item>
+        <item>Ao mua</item>
+    </string-array>
+
+    <string name="title_activity_four">Partner</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CaffeinCount</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Cafe_array">
+        <item>Starbuck</item>
+        <item>Milk Coffee</item>
+        <item>Black Coffee</item>
+    </string-array>
+</resources>

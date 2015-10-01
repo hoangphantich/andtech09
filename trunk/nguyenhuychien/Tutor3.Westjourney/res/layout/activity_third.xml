@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes" />
+
+    <Spinner
+        android:id="@+id/spnCloth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/clothes"
+        android:prompt="@string/clothes_prompt"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weapon" />
+
+    <Spinner
+        android:id="@+id/spnWeapon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    
+
+    <LinearLayout
+        android:id="@+id/button"
+        android:layout_marginLeft="120sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goMain"
+            android:text="Main" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goAccompany"
+            android:text="Accompany" />
+    </LinearLayout>
+
+</LinearLayout>

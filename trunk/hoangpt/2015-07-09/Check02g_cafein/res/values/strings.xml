@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check02g_cafein</string>
+    <string-array name="cafelist">
+        <item>Starbuck</item>
+        <item>Cafe sua</item>
+        <item>Cafe den</item>                
+    </string-array>
+
+</resources>

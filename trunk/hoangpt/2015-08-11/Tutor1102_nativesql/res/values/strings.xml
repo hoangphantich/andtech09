@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor1102_nativesql</string>
+    <string name="title_activity_native_sqlexternal">NativeSQLExternalActivity</string>
+    <string name="title_activity_sqlinternal_advance">SQLInternalAdvanceActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+
+    <string-array name="nationalities">
+        <item>Vietnamese</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="title_activity_sqladvance_two">SQLAdvanceTwoActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

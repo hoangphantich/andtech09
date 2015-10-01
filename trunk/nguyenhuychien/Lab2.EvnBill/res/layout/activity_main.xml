@@ -1,0 +1,188 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:id="@+id/relativelayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="6dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textviewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:text="@string/textviewName"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edittextName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textviewName"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/borderblack"
+            android:ems="10"
+            android:hint="@string/edittextName"
+            android:labelFor="@+id/edittextName"
+            android:paddingLeft="5dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textviewQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:text="@string/textviewQuantity"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/edittexQuantity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textviewQuantity"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/borderblack"
+            android:ems="10"
+            android:inputType="number"
+            android:labelFor="@+id/edittexQuantity"
+            android:paddingLeft="5dp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edittexQuantity"
+            android:layout_marginTop="6dp"
+            android:drawableLeft="@drawable/iconcc"
+            android:onClick="btnCalculate_OnClick"
+            android:paddingLeft="4dp"
+            android:paddingRight="10dp"
+            android:text="@string/btnCalculate" />
+        <!-- List item of Invoice -->
+
+        <RelativeLayout
+            android:id="@+id/relativelayoutGridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCalculate"
+            android:layout_marginTop="6dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal" >
+
+            <ListView
+                android:id="@+id/listviewInvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:divider="#b5b5b5"
+                android:dividerHeight="1dp" />
+        </RelativeLayout>
+
+        <!-- Information total -->
+
+        <TextView
+            android:id="@+id/textviewTotalFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativelayoutGridView"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/textviewTotalFee"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txttotalFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativelayoutGridView"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/txttotalFee"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textviewTotalVAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textviewTotalFee"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/textviewTotalVAT"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txttotalVAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textviewTotalFee"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/txttotalVAT"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textviewTotalFeeIncludeVAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textviewTotalVAT"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/textviewTotalFeeIncludeVAT"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txttotalIncludeVAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textviewTotalVAT"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/txttotalIncludeVAT"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textviewTotalFeeIncludeVAT"
+            android:layout_marginTop="6dp"
+            android:drawableLeft="@drawable/shoppingcart"
+            android:onClick="btnPrint_OnClick"
+            android:paddingLeft="4dp"
+            android:paddingRight="10dp"
+            android:text="@string/btnPrint" />
+    </RelativeLayout>
+
+</FrameLayout>

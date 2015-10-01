@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check02a</string>
+
+    <string-array name="list_menu">
+        <item>Check motobike nr</item>
+        <item>Solve Math</item>
+        <item>Build Towel</item>
+        <item>Check motobike nr</item>
+        <item>Check motobike nr</item>
+    </string-array>
+
+    <string name="title_activity_check_nr">CheckNrActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

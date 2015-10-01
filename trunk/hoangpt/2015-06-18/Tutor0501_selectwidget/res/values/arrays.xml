@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_menu">
+        <item>ListView</item>
+        <item>ListViewCustom</item>
+        <item>Spinner</item>
+        <item>SpinnerCustom</item>
+        <item>GridView</item>
+        <item>Gallery</item>
+        <item>GalleryGridView</item>
+        <item>Friend</item>
+    </string-array>
+</resources>

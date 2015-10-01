@@ -1,0 +1,17 @@
+Icon
+.settings/
+.classpath
+.project
+.idea
+bin/
+build/
+out/
+.hg/
+.git/
+.gradle/
+gradle/
+gen
+*.iml
+Iconr
+local.properties
+

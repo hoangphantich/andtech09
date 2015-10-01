@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Check03c_sens_c2</string>
+    <string-array name="cafelist">
+        <item>Starbuck</item>
+        <item>Cafe sua</item>
+        <item>Cafe den</item>                
+    </string-array>
+</resources>

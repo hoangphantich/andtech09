@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check03d</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_solve_math">SolveMathAct</string>
+
+</resources>

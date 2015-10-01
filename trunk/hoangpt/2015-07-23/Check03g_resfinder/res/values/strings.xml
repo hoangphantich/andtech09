@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check03g_resfinder</string>
+    <string name="title_activity_detail">DetailActivity</string>
+	<string-array name="resnames">
+	    <item name="1">Bun oc</item>
+	    <item name="2">Bun cha</item>
+	    <item name="3">Bun moc</item>
+	</string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutor0903_async</string>
+    <string name="title_activity_threading_non_reponsive">SyncNonReponsiveActivity</string>
+    <string name="title_activity_threading_reponsive">AsyncReponsiveActivity</string>
+
+</resources>

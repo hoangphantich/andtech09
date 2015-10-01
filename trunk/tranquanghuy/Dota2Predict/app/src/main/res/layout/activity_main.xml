@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:id="@+id/MainLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/TeamLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+                <EditText
+                    android:id="@+id/txtTeam1"
+                    android:layout_height="150dp"
+                    android:layout_width="160dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_orange_dark" />
+                <TextView
+                    android:id="@+id/txtVersus"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="36dp"
+                    android:typeface="sans"
+                    android:gravity="center"
+                    android:text=" - "
+                    android:textColor="@android:color/background_light" />
+                <EditText
+                    android:id="@+id/txtTeam2"
+                    android:layout_height="150dp"
+                    android:layout_width="160dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_orange_dark" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtTeamWin"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="36dp"
+                android:typeface="sans"
+                android:gravity="center"
+                android:textColor="#a32924" />
+            <Button
+                android:id="@+id/btnPredict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Predict"
+                android:background="#a32924"
+                android:textColor="@android:color/background_light"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:typeface="sans"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

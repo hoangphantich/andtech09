@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_menu">
+        <item>ThreadingNonReponsive</item>
+        <item>ThreadingReponsive</item>
+        <item>ThreadingAnimation</item>
+        <item>ThreadingDialogAnimation</item>
+        <item>ThreadingDogAnimation</item>
+        <item>ThreadingDogTimer</item>
+    </string-array>
+</resources>

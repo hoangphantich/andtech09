@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab02.EvnBill</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+ <string name="textviewName">Name</string>
+	<string name="edittextName"></string>
+	<string name="textviewQuantity">Quantity</string>
+	<string name="btnCalculate">Calculate</string>
+	<string name="textviewTotalFee">Total fee</string>
+	<string name="txttotalFee"></string>
+	<string name="textviewTotalVAT">VAT</string>
+	<string name="txttotalVAT"></string>
+	<string name="textviewTotalFeeIncludeVAT">TOTAL (include VAT)</string>
+	<string name="txttotalIncludeVAT"></string>
+	<string name="btnPrint">Print</string>
+</resources>
+
+

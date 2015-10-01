@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnAc1d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="Activity1(Destroy)" />
+
+    <Button
+        android:id="@+id/btnAc1s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAc1d"
+        android:layout_alignBottom="@+id/btnAc1d"
+        android:layout_toLeftOf="@+id/btnAc1d"
+        android:text="Activity1(Start)" />
+
+    <Button
+        android:id="@+id/btnAc2s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAc1s"
+        android:layout_below="@+id/btnAc1s"
+        android:layout_marginTop="22dp"
+        android:text="Activity2(Start)" />
+
+    <Button
+        android:id="@+id/btnAc2d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnAc2s"
+        android:layout_alignLeft="@+id/btnAc1d"
+        android:text="Activity2(Destroy)" />
+
+    <Button
+        android:id="@+id/btnAc3stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnAc2s"
+        android:layout_below="@+id/btnAc2s"
+        android:layout_marginTop="16dp"
+        android:text="Activity3(Stop)" />
+
+    <Button
+        android:id="@+id/btnAc3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnAc3stop"
+        android:layout_alignLeft="@+id/btnAc2d"
+        android:text="Activity3(Destroy)" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnAc3stop"
+        android:background="#FFFF66"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
