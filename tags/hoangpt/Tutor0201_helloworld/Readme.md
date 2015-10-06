@@ -7,9 +7,9 @@ Thư mục apk chứa file chạy, mọi người kéo vào thiết bị và tr�
 ## Setup
 Import vào Eclipse / Android Studio / IntelliJ hoặc bất cứ IDE nào bạn thích.
 
-Tải file apk: https://github.com/hoangpt/techandbas.i15/raw/master/Tutor0201_helloworld/apk/Tutor0201_helloworld.apk
+Tải file apk: https://github.com/hoangphantich/andtech09/raw/master/tags/hoangpt/Tutor0201_helloworld/apk/Tutor0201_helloworld.apk
 
-![](https://raw.githubusercontent.com/hoangpt/techandbas.i15/master/Tutor0201_helloworld/apk/Tutor0201_helloandroid.gif)
+![](https://raw.githubusercontent.com/hoangphantich/andtech09/master/tags/hoangpt/Tutor0201_helloworld/apk/Tutor0201_helloandroid.gif)
 
 ## Chú ý
 Có thể giao diện sẽ khác trên thiết bị thật vì ứng dụng không sử dụng theme (theme mặc định của thiết bị)
