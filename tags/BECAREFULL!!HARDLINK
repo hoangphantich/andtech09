@@ -1,0 +1,3 @@
+Becareful
+to link: hln source destination
+to unlink: hln -u destination

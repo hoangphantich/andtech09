@@ -12,6 +12,6 @@ out/
 gradle/
 gen
 *.iml
-Iconr
+Icon
 local.properties
-
+_student
